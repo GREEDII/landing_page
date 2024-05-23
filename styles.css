@@ -44,6 +44,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   flex-grow: 1;
+  gap: 50px;
   /* overflow: hidden; */
 }
 
@@ -76,6 +77,8 @@ li {
 .vote {
   width: 100px;
   height: 30px;
+  font-size: 16px;
+  font-weight: bold;
   color: white;
   background-color: #3882f6;
   border: none;
@@ -93,6 +96,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 35px 12% 100px 12%;
 }
 
 .main-2-images {
@@ -108,4 +112,25 @@ li {
 .rocket-container img {
   border: 6px solid #3882f6;
   border-radius: 10%;
+  width: 200px;
+  height: 200px;
+}
+
+.main-3 {
+  background-color: #e5e7eb;
+  padding: 100px 18% 100px 18%;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.author {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
 }
