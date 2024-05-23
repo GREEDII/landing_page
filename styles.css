@@ -107,6 +107,7 @@ h2 {
 .main-2-images {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 50px;
 }
 
